@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Дипломный проект о кириллической каллиграфии: вязь и полуустав.">
+  <title>Вязь — кириллическая каллиграфия</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header container">
+    <nav class="grid" aria-label="Основная навигация">
+      <a href="#vyaz">вязь</a><a href="#poluustav">полуустав</a><a href="#program">программа</a><a href="#signup">записаться</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero" role="img" aria-label="Красная и чёрная каллиграфическая вязь">
+      <svg viewBox="0 96 1920 1070" aria-hidden="true"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+    </div>
+    <section id="vyaz" class="container section" aria-label="Вязь">
+      <div class="copy">
+        <p>Вязь — тип древнего декоративного кириллического письма, в котором буквы сближаются или соединяются одна с другой и связываются в непрерывный орнамент.</p>
+        <p>Вязь имеет двойную суть: графическую и декоративную. Прямой задачей вязи как письма является рациональное размещение текста в предназначенном для него пространстве с применением различных способов компактного расположения букв. Вязь же как средство художественного оформления текста должна быть оформлена в едином художественном стиле произведения.</p>
+      </div>
+      <div class="gallery" aria-label="Примеры вязи">
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Круговая композиция вязи"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Круговая композиция вязи"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Круговая композиция вязи"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+      </div>
+    </section>
+    <section id="poluustav" class="container section" aria-label="Полуустав">
+      <div class="copy"><p>Полуустав — форма кириллицы, возникшая во второй половине XIV века. По сравнению с уставом полууставные почерки мельче и округлее.<br>Для заголовков в полууставе применялась особая техника декоративного сочетания букв — вязь.</p></div>
+      <div class="gallery" aria-label="Примеры каллиграфии">
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Работа с кириллическими буквами"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Работа с кириллическими буквами"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Работа с кириллическими буквами"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+      </div>
+    </section>
+    <section id="program" class="container program" aria-labelledby="program-title">
+      <h1 id="program-title">Чем писать</h1>
+      <p class="program-description">Инструменты, буквы и композиция</p>
+      <div class="gallery gallery-small">
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Каллиграфическая композиция"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Каллиграфическая композиция"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Каллиграфическая композиция"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+      </div>
+    </section>
+    <section id="signup" class="container signup" aria-labelledby="signup-title">
+      <h2 id="signup-title"><span><em>КАК</em> И <em>ГДЕ</em></span><span>Я МОГУ ЭТОМУ</span><span>НАУЧИТЬСЯ?</span></h2>
+      <svg class="floating-work work-one" viewBox="162 1940 516 516" aria-hidden="true"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+      <svg class="floating-work work-two" viewBox="162 1940 516 516" aria-hidden="true"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+      <div class="signup-details grid">
+        <p>Место для информации об обучении и записи. Программа, даты и способ связи появятся здесь после уточнения.</p>
+        <svg viewBox="162 1940 516 516" role="img" aria-label="Пример работы"><image href="assets/reference.jpg" width="1920" height="7069"/></svg>
+      </div>
+    </section>
+  </main>
+  <footer class="container footer"><nav class="grid" aria-label="Навигация внизу страницы"><a href="#vyaz">вязь</a><a href="#poluustav">полуустав</a><a href="#program">программа</a><a href="#signup">записаться</a></nav></footer>
+</body>
+</html>

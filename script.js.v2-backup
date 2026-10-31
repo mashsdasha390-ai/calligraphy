@@ -1,0 +1,25 @@
+const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+if ('IntersectionObserver' in window && !motionPreference.matches) {
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    }
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach((image) => {
+    image.classList.add('is-pending');
+    observer.observe(image);
+  });
+  motionPreference.addEventListener('change', () => {
+    if (motionPreference.matches) {
+      observer.disconnect();
+      document.querySelectorAll('.is-pending').forEach(image => image.classList.add('is-visible'));
+    }
+  });
+}
+document.querySelector('form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  document.querySelector('.form-note').textContent = 'Это макет формы: данные не отправлены. Способ записи подключим позже.';
+});
